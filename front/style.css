@@ -1,0 +1,325 @@
+body {
+  font-family: "Arial", sans-serif;
+  color: #F9D7EF;
+  margin: 0;
+}
+
+section {
+  padding: 0 30px;
+}
+
+h2 {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+
+p {
+  color: #000;
+  font-weight: 200;
+  font-size: 15px;
+  letter-spacing: 0.75px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+#home {
+  background-color: #1F00FF;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+#home header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 70px;
+}
+
+#home header .connexion .signIn {
+  background-color: #000;
+  padding: 15px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+#home header .connexion .signIn:hover {
+  background-color: #fff;
+  color: #1F00FF;
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#home header .connexion .signUp {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  padding: 15px 20px;
+  border: 1px solid transparent;
+}
+
+#home header .connexion .signUp:hover {
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#home .content {
+  padding-left: 100px;
+  margin-bottom: 100px;
+}
+
+#home .content .text {
+  max-width: 33%;
+}
+
+#home .content .text p {
+  font-style: italic;
+  font-weight: 200;
+  max-width: 75%;
+  color: #fff;
+}
+
+#home .content .text h1 {
+  font-weight: 600;
+  font-size: 90px;
+  letter-spacing: 1px;
+  margin-top: 0;
+}
+
+#home .content .text .cta .signIn {
+  background-color: #000;
+  padding: 15px 20px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  border: 1px solid #000;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#home .content .text .cta .signIn:hover {
+  background-color: #fff;
+  color: #1F00FF;
+  border: 1px solid #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#home .content .text .cta .knowMore {
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  color: #fff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#home .content .text .cta .knowMore:hover {
+  background-color: #fff;
+  color: #1F00FF;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#home .img {
+  position: absolute;
+  top: calc(50% - 300px);
+  right: 15px;
+  width: 55%;
+}
+
+#home .arrow {
+  text-align: center;
+}
+
+#home .arrow img {
+  width: 35px;
+}
+
+#about {
+  text-align: center;
+  padding-top: 130px;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+#about .leftImg {
+  position: absolute;
+  top: -110px;
+  left: -100px;
+  width: 40%;
+  z-index: -1;
+}
+
+#about h2 {
+  max-width: 520px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+#about p {
+  line-height: 30px;
+  max-width: 520px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#about .cta {
+  background-color: #1F00FF;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  padding: 15px 20px;
+  max-width: 520px;
+  margin: 0 auto;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#about .cta:hover {
+  background-color: #fff;
+  border: 1px solid #1F00FF;
+  color: #1F00FF;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#about .rightImg {
+  position: absolute;
+  top: -110px;
+  right: 0;
+  width: 40%;
+  z-index: -1;
+}
+
+#portail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-top: 50px;
+}
+
+#portail .firstColumn, #portail .secondColumn, #portail .thirdColumn {
+  width: 33%;
+  padding: 0 15px;
+}
+
+#portail .firstColumn .element, #portail .secondColumn .element, #portail .thirdColumn .element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+#portail .firstColumn .element .text, #portail .secondColumn .element .text, #portail .thirdColumn .element .text {
+  margin-left: 15px;
+}
+
+#portail .firstColumn .element .text h3, #portail .secondColumn .element .text h3, #portail .thirdColumn .element .text h3 {
+  color: #000;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+#portail .firstColumn .element .text p, #portail .secondColumn .element .text p, #portail .thirdColumn .element .text p {
+  line-height: 22px;
+}
+
+footer {
+  position: relative;
+}
+
+footer .img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+}
+
+footer .text {
+  text-align: center;
+  padding-top: 50px;
+}
+
+footer .text img {
+  margin-bottom: 50px;
+}
+
+footer .text .footerMenu {
+  max-width: 800px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .text .footerMenu p, footer .text .footerMenu a {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+}
+
+footer .text .footerMenu a {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+footer .text .footerMenu a:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+  padding-top: 5px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+/*# sourceMappingURL=style.css.map */
